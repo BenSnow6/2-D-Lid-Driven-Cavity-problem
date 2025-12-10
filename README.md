@@ -1,6 +1,22 @@
 # A finite difference approach to solving the Navier-Stokes equations for the 2-D Lid Driven Cavity problem
 
-# Introduction
+## Python Implementation Available!
+
+This repository now includes a complete Python implementation (`lid_driven_cavity.py`) of the algorithm described in the paper. See `VERIFICATION.md` for detailed verification of results.
+
+### Quick Start
+```bash
+pip install -r requirements.txt
+python lid_driven_cavity.py
+```
+
+This will generate:
+- `cavity_results_2d.png` - Velocity field, vorticity, and pressure plots
+- `cavity_pressure_3d.png` - 3D surface plot of pressure
+
+---
+
+## Introduction
 The Navier-Stokes equations are a set of non linear, partial differential equations
 that govern the viscous motion of fluids. If used correctly, these equations can be used as a
 powerful tool to model the flow of fluids in many different scenarios, including weather
